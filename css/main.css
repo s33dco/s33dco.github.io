@@ -152,6 +152,10 @@ h2 ~ p {
   color: #ccc;
 }
 
+.in-footer {
+  margin-top: 1.5em;
+}
+
 /* HERO STYLES */
 .full-hero {
   background-color: #c7dbfc;
