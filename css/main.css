@@ -79,6 +79,8 @@ a {
 
 p {
   line-height: 1.5;
+  margin: 0.75em 0;
+
 }
 
 h2 ~ p {
@@ -318,16 +320,41 @@ using content to place symbol after full hero
   margin-bottom: 1.5rem;
   text-align: center;
 }
+
+
+
 .home-callout {
+  align-items: center;
   background-color: #000;
+  display: flex;
   color: #fff;
   padding: 7vh 0;
 }
 .callout-title {
+    flex-grow: 1;
+  flex-basis: 0;
   font-size: 5.75vw;
   text-align: right;
   text-transform: uppercase;
 }
 .callout-copy {
+    flex-shrink: 0;
+  flex-basis: 45em;
+  padding: 0 3vw;
   font-size: 0.8rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
