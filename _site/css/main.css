@@ -672,8 +672,23 @@ using content to place symbol after full hero
     padding: 0;
   }
 
-  aside.post-aside {
+  .blog-recent {
     display: none;
+  }
+
+.page {
+    display : flex;
+    flex-direction: column;
+  }
+
+.post-content{
+  flex :1 ;
+  order :1;
+}
+  .post-aside {
+    flex :1;
+    float: none;
+    order : 2;
   }
 
 }
