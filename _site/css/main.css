@@ -629,7 +629,7 @@ using content to place symbol after full hero
   }
 
   /* BLOG STYLES */
-  .page {
+/*  .page {
     margin: 2vh 1em 5vh;
     max-width: 980px;
     width: auto;
@@ -665,7 +665,7 @@ using content to place symbol after full hero
   .blog-posts ~ .blog-posts {
     margin-top: 2em;
     padding-top: 2em;
-  }
+  }*/
 
 
   .blog-previews {
